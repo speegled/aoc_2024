@@ -1,6 +1,7 @@
 library(tidyverse)
 library(igraph)
 
+source("source_at_start.R")
 mm <- make_matrix("data/day10", buffer_width = 1, buffer_char = "-1")
 
 nrow <- nrow(mm)
